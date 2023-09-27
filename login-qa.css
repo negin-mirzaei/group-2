@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap');
+
+
+@media only screen and (min-width: 480px) {
+#comment-area{
+    display: flex;
+    padding: 3vmax;
+
+}
+
+#phone-para{
+    padding: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsla(226, 100%, 50%, 0.137) ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-family: 'Bitter', serif;
+}
+
+#phone-para2{
+    padding: 30px;
+    width: 50%;
+    background-color: rgba(63, 83, 153, 0.74);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#para{
+    margin: 5px;
+}
+
+#phone-number{
+    padding: 10px;
+    border: 7px solid white;
+    border-radius: 20px;
+}
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    #comment-area{
+        display: flex;
+        flex-direction: column;
+        padding: 3vmax;
+    
+    }
+    
+    #phone-para{
+        padding: 7px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: hsla(226, 100%, 50%, 0.137);
+    }
+    
+    #phone-para2{
+        padding: 5px;
+        border-radius: 5px;
+        background-color: rgba(63, 83, 153, 0.74);
+    }
+    #para{
+        margin: 5px;
+    }#phone-number{
+        padding: 5px;
+        border: 5px solid white;
+        border-radius: 20px;
+    }
+
+
+
+}
